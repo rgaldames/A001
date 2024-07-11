@@ -5,12 +5,12 @@ def Menu():
     print("================================")
     print("***** Todos Ganamos S.A.  *****")
     print("===============================")
-    print("[1]-> Agregar y/o Modificar Bono")
-    print("[2]-> Listar bonos")
-    print("[3]-> Bono más bajo ")
-    print("[4]-> Detalle")
-    print("[5]-> Salir ")
-    op=input("Elija Opción:")
+    print("[1] <-> Agregar y/o Modificar Bono")
+    print("[2] <-> Listar bonos")
+    print("[3] <-> Bono más bajo ")
+    print("[4] <-> Detalle")
+    print("[5] <-> Salir ")
+    op=input(">>>> Elija Opción: ")
     return(op)
 
 def AgregarBono():
